@@ -8,4 +8,5 @@ Installation
 
 6. Adapted from https://github.com/yusufky63/x-country-withheld-viewer
 
+For a permanent installation use this signed version https://github.com/st1905/x-country-withheld-viewer-firefox/releases/download/v0.1.7/x-country-withheld-viewer.xpi
 See FIREFOX-INSTALL.txt for more details.
