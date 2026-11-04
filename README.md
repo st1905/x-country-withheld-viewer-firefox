@@ -5,3 +5,5 @@ Installation
 4. Select the extracted manifest.json.
 
 5. Now you can browser X accounts with the Country Withheld Tweets.
+
+See FIREFOX-INSTALL.txt for more details.
