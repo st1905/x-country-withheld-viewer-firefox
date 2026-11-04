@@ -1,0 +1,25 @@
+X Country Withheld Viewer 0.1.6 — Firefox build
+
+This package is adapted from the supplied Chrome extension. The original
+JavaScript, UI, styles, icons, locales, provider endpoints, and behavior are
+preserved. The Firefox manifest uses Firefox's MV3 background-script model
+instead of Chrome's service worker model and declares a Gecko extension ID.
+
+Requirements:
+- Firefox 128 or newer (the extension uses MAIN-world content scripts).
+
+Temporary installation:
+1. Open about:debugging#/runtime/this-firefox
+2. Click “Load Temporary Add-on…”
+3. Select manifest.json from the extracted extension folder.
+
+For permanent installation, the extension must be signed by Mozilla AMO
+(either listed publicly or signed as an unlisted add-on). Firefox may remove
+temporary add-ons when the browser closes.
+
+Notes:
+- The extension communicates with fxtwitter.com and mdfromx.com as disclosed
+  in its popup. Those services receive post IDs and your IP address.
+- X cookies and authentication tokens are not sent to those providers.
+- This build has been statically adapted and syntax-checked; it has not been
+  run in a live Firefox session here.
